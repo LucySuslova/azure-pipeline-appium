@@ -13,7 +13,7 @@ class SimpleAndroidUITests(unittest.TestCase):
             'app': '/root/tmp/apks/sample_apk_debug.apk',
             # 'app': '/Users/tadashi0713/tadashi0713/azure-pipeline-appium/apks/sample_apk_debug.apk',
             'browserName': 'android',
-            'avd': 'nexus_5_7.1.1'
+            'avd': 'nexus_5_8.0'
         }
         self.driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub', desired_caps)
         # self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
